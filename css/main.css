@@ -1,0 +1,182 @@
+*, html {
+  border: 0px solid #ff0000;
+  margin: 0 auto;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Avenir';
+}
+
+.button1 {
+  width: 100px;
+  height: 50px;
+  color: #F2EFE8;
+  font-weight: bold;
+  background-color: #EEB26C;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-container {
+  background-color: #282828;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  margin-left: 0;
+  color: #D275C3;
+}
+
+header nav {
+  margin-right: 0;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul a {
+  display: block;
+  padding: 0 1em;
+  color: #FAFF00;
+}
+
+.frontpage {
+  background-color: #282828;
+}
+
+.frontpage h1 {
+  font-size: 6em;
+  line-height: 1.2em;
+  color: #D275C3;
+  font-family: Yanone Kaffeesatz;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 1em;
+}
+
+.photosection {
+  padding: 10% 0 10% 0;
+}
+
+.photosection .title {
+  position: absolute;
+  z-index: 100;
+  padding-right: 100px;
+  padding-left: 20px;
+  height: 60px;
+  margin-top: -60px;
+}
+
+.photosection .title h2 {
+  font-size: 3em;
+}
+
+.photosection .title a {
+  color: #D275C3;
+  font-weight: bold;
+}
+
+.photosection .image-grid {
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.photosection .image-grid img {
+  padding: 0 20px 0px 20px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.photosection .image-grid img:hover {
+  opacity: 60%;
+}
+
+#analogsection {
+  background-color: #F2EFE8;
+}
+
+#analogsection a {
+  color: #EEB26C;
+}
+
+#analogsection #analog-grid img {
+  width: 100px;
+  height: 500px;
+}
+
+#digitalsection {
+  background-color: #9DBC6B;
+}
+
+#digitalsection a {
+  color: #EEB26C;
+}
+
+#digitalsection #digital-grid {
+  background-color: #F2EFE8;
+  padding: 20px 0px 20px 0px;
+  height: 300px;
+}
+
+#digitalsection #digital-grid img {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  height: 300px;
+}
+
+#svhvsection {
+  background-color: #141414;
+}
+
+#svhvsection a {
+  color: #F2EFE8;
+}
+
+#svhvsection #svhv-grid img {
+  width: 100px;
+  height: 500px;
+}
+
+@media only screen and (max-width: 800px) {
+  .frontpage h1 {
+    font-size: 3em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
